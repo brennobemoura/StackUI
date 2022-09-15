@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "associationkit",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:brennobemoura/AssociationKit.git",
+      "state" : {
+        "revision" : "5f6bdc1c6612a243fd2f8fe936c4691228b30155",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
