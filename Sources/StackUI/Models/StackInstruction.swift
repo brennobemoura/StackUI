@@ -1,6 +1,6 @@
 //
 //  StackInstruction.swift
-//  
+//
 //
 //  Created by onnerb on 14/09/22.
 //
@@ -25,7 +25,7 @@ struct StackInstruction {
 }
 
 extension StackInstruction {
-    
+
     static func push(_ viewController: UIViewController, animated: Bool) -> Self {
         .init(
             type: .push,

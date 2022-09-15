@@ -1,6 +1,6 @@
 //
 //  File.swift
-//  
+//
 //
 //  Created by onnerb on 14/09/22.
 //
@@ -12,7 +12,7 @@ class StackOutput {
 
     private weak var viewController: UIViewController?
     private weak var queue: StackQueue?
-    
+
     private weak var topViewController: UIViewController?
     private weak var referenceConstraint: NSLayoutConstraint?
 
@@ -173,7 +173,6 @@ private extension StackOutput {
 
         delegate?.outputDidPushViewController(viewController)
     }
-
 
     func performPush(
         _ viewController: UIViewController,

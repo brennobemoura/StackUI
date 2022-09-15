@@ -1,6 +1,6 @@
 //
 //  StackGestureCoordinator.swift
-//  
+//
 //
 //  Created by onnerb on 14/09/22.
 //
@@ -149,4 +149,3 @@ extension StackGestureCoordinator {
         currentViewController === viewController
     }
 }
-
